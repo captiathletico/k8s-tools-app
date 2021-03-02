@@ -18,8 +18,8 @@ spec:
     targetRevision: master
     helm:
       values: |
-        argoHost: "argo.demo.atoy.dev"
-        issuerEmail: "adam@atoy.dev"
+        argoHost: "argo.athletico.com.br"
+        issuerEmail: "cap.infra@athletico.com.br"
   syncPolicy:
     automated:
       prune: true
