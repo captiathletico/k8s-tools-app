@@ -32,7 +32,7 @@ spec:
             source: letsEncrypt
         letsEncrypt:
           email: cap.infra@athletico.com.br
-          environment: staging
+          environment: production
           ingress:
             class: "traefik"
   syncPolicy:
