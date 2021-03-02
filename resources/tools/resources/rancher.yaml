@@ -25,14 +25,14 @@ spec:
     targetRevision: master
     helm:
       values: |
-        hostname: "rancher.demo.atoy.dev"
+        hostname: "rancher.athletico.com.br"
         rancherImageTag: "v2.4.8"
         ingress:
           tls:
             source: letsEncrypt
         letsEncrypt:
-          email: adam@atoy.dev
-          environment: staging
+          email: cap.infra@athletico.com.br
+          environment: production
           ingress:
             class: "traefik"
   syncPolicy:
