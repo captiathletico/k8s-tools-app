@@ -1,10 +1,10 @@
 # Set this to your argo host
-argoHost: argo.example.com
+argoHost: argo.athletico.com.br
 
 # Set this to the name of the desired TLS secret for Argo.
 argoTlsSecret: tls-argo-ingress
 
 # Set this to the email of your cluster issuer
-issuerEmail: john.doe@example.com
+issuerEmail: cap.infra@athletico.com.br
 
 httpsRedirect: true
